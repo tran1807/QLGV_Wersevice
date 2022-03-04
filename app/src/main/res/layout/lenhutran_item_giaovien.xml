@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E0E0">
+
+    <TextView
+        android:id="@+id/textViewMagv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mã giáo viên"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/textViewTengv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tên giáo viên"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:id="@+id/textViewGioitinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giới tính"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="30dp"/>
+    <TextView
+        android:id="@+id/textViewDiachi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Địa chỉ"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="130dp"/>
+    <TextView
+        android:id="@+id/textViewSdt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Số điện thoại"
+        android:textSize="20dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginLeft="30dp"/>
+
+
+
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textViewSdt"
+        android:layout_marginTop="28dp"
+        android:background="#0E0E0E" />
+
+
+</RelativeLayout>
